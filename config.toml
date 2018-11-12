@@ -1,0 +1,50 @@
+baseURL = "https://spatialanalysis.github.io"
+languageCode = "en-us"
+title = "Learn Spatial Analysis | Center for Spatial Data Science"
+theme = "hugo-smorg"
+author = "Angela Li"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+publishdir = "public"
+
+copyright = "&copy; 2018 Center for Spatial Data Science"
+
+[params]
+  logofile = "CSDS_logo_white.png"
+  logotype = "Center for Spatial Data Science" # in header and footer
+  homepgheader = "Learn Spatial Analysis"
+  homepgsubheader = "Online resources, tutorials, and more"
+  footer = "Follow us on Twitter and Facebook! <br />"
+  subfooter = "Questions or comments? File an issue on Github."
+
+# Navigation Menu
+# Note that secondary pages have a YAML header that indicates a parent page
+[[menu.sectionmenu]]
+  name = "Tutorials"
+  url = "tutorials/"
+  identifier = "tutorials"
+  weight = 10  
+  
+[[menu.sectionmenu]]
+  name = "Events"
+  url = "events/"
+  identifier = "events"
+  weight = 20  
+  
+[[menu.sectionmenu]]
+  name = "Software"
+  url = "software/"
+  identifier = "software"
+  weight = 30  
+
+[[menu.sectionmenu]]
+  name = "About"
+  url = "about/"
+  identifier = "about"
+  weight = 40
+
+[[menu.sectionmenu]]
+  name = "Blog"
+  url = "blog/"
+  identifier = "post"
+  weight = 50
+  

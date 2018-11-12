@@ -1,0 +1,33 @@
+{{ define "title" }}
+	{{ .Site.Title }} : 404
+{{ end }}
+{{ define "nav" }}
+   {{ partial "nav.html" . }}
+{{ end }}
+{{ define "main" }}
+{{- if $.Site.Params.debug }}<p class="has-text-danger">DEBUG: layouts/404.html</p>{{ end }}
+<section class="section" itemscope itemtype="http://schema.org/WebPage">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-8 is-offset-2">
+				<article class="content">
+					<h1 class="title has-text-danger">Page Not Found</h1>
+					<p class="subtitle">The URL you've requested cannot be found on this web site.</p>
+					<p><code id="errorurl"></code></p>
+					<p>Sections of this site include:</p>
+					<ul>
+						<li><a href="{{ $.Site.BaseURL }}">Home</a></li>
+			{{ range .Site.Menus.sectionmenu }}
+			<li><a class="" href="{{ .URL }}">{{ .Name }}</a></li>
+			{{ end }}
+					</ul>
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}
+{{ define "js-body-bottom" }}
+	{{- partial "js-errorurl.html" . }}
+	{{- partial "js-body-bottom.html" . }}
+{{ end }}

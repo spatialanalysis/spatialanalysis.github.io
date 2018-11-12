@@ -1,0 +1,19 @@
+{{- $currentPage := . }}
+	<nav class="navbar" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item has-text-white-ter" 
+				   href="{{ $.Site.BaseURL }}">{{- partial "logo.html" . -}}</a>
+				<div class="navbar-burger burger" data-target="navMenu">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</div>
+			</div>
+			<div class="navbar-menu" id="navMenu">
+				<div class="navbar-end">
+					{{ partial "navbar-menu.html" . }}
+				</div>
+			</div>
+		</div>
+	</nav>

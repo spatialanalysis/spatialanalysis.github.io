@@ -1,0 +1,39 @@
+<!DOCTYPE html> <!-- See docs/customizing.md for info -->
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+<head>
+	<title>
+		{{- block "title" . }}
+		{{ partial "title.html" . -}}
+		{{- end }}
+	</title>
+	{{- block "head" . -}}
+		{{- partial "head.html" . -}}
+	{{- end -}}
+	{{- block "head-custom" . -}}
+		{{- partial "head-custom.html" . -}}
+	{{- end -}}
+	{{- block "js-head" . -}}
+		{{- if not .Site.BuildDrafts }}
+			{{- template "_internal/google_analytics_async.html" . }}
+		{{- end }}
+	{{- end -}}
+</head>
+<body>
+	{{- block "nav" . }}
+		{{ partial "nav.html" . }}
+	{{- end }}
+	{{- block "main" . }} 
+		<!-- page content -->
+		<p>If you are seeing this, your page content hasn't been created.</p>
+	{{- end }}
+	{{- block "footer" . }}
+		{{- partial "footer.html" . -}}
+	{{ end }}
+	{{- block "js-microdata" . -}}
+		{{- if ne .Kind "404" }}{{- partial "microdata/json-ld.html" . }}{{ end -}}
+	{{- end }}
+	{{- block "js-body-bottom" . -}}
+		{{- partial "js-body-bottom.html" . -}}
+	{{- end }}
+</body>
+</html>

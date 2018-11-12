@@ -1,0 +1,23 @@
+{{ define "main" }}
+{{- if $.Site.Params.debug }}<p class="has-text-danger">DEBUG: layouts/_default/single.html</p>{{ end -}}
+<section class="section" itemscope itemtype="http://schema.org/WebPage">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-8 is-offset-2">
+				<article class="content">
+					<h1 class="title is-3">{{ .Title }}</h1>
+					<p class="subtitle is-6 has-text-grey">
+					<em>{{- partial "page-meta.html" . -}}</em></p>
+					{{- partial "page-status.html" . -}}
+					{{- .Content }}
+					{{ if $.Site.DisqusShortname }}
+						<hr>
+						{{ template "_internal/disqus.html" . }}
+					{{ end }}
+
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+{{ end }}

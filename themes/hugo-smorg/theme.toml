@@ -1,0 +1,14 @@
+name = "hugo-smorg"
+license = "MIT"
+licenselink = "https://github.com/solutionroute/hugo-smorg/blob/master/LICENSE"
+description = "Responsive mobile-first Bulma-powered minimalistic Hugo theme for an individual or small organization or as a starter for grander ideas."
+homepage = "https://solutionroute.github.io/hugo-smorg/"
+tags = ["blog","mobile","bulma","responsive", "minimal"]
+features = ["responsive","atom","bulma","bulmaswatch"]
+min_version = "0.32"
+updated = "2018-03-15"
+
+[author]
+  name = "Mike Watkins"
+  homepage = "https://github.com/solutionroute"
+

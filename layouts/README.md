@@ -1,0 +1,1 @@
+These are custom theme files that have been modified from the original theme files. Hugo reads these instead of the original theme files of the same name. You'll find a copy of the originals in `themes/layouts/`.
