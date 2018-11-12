@@ -18,14 +18,16 @@ Thanks to [Chris Prener](https://github.com/slu-dss/slu-dss.github.io) and [Mine
 
 ### Quick Tips for Updating This Site
 
+**Note: Don't track or commit the `public` folder on the hugo branch!** 
+
 After making changes on the `hugo` branch, committing, and pushing them, run 
 ```
 bash setup.sh
 ```
 to update the site. There's a nasty combination of Github subtrees and branches underlying this site, because Hugo doesn't work super well with Github pages.
 
-- When in doubt, edit `config.toml` first, for sitewide settings like the website title, headers, and footers. Edit the `config.toml` file rather than the `config.yaml` file.
+- When in doubt, edit `config.toml`, for sitewide settings like the website title, headers, and footers.
 - To update page content, add to the `content` folder. 
 - To update page formatting, go to the `layouts` folder. You can copy and modify the original HTML layout files from `themes/hugo-smorg/layouts`.
-- **Don't touch the `public` folder!** (The stuff in there is automatically generated from the files in `content`.) 
+- **Don't edit the `public` folder!** (The stuff in there is automatically generated from the files in `content`.) 
 - Images for pages and posts as well as logo files are stored in the `static` folder. Use the RStudio `blogdown` addin to insert images easily.
