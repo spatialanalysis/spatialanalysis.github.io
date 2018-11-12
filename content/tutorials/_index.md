@@ -17,5 +17,5 @@ Below are the R lab notes from Luc Anselin's [Introduction to Spatial Data Scien
 * [**Exploratory Data Analysis 2 - Multivariate Exploration**](https://spatialanalysis.github.io/lab_tutorials/3_R_EDA_2.html): Continue to explore NYC socioeconomic data using spatial data analysis methods for three or more variables, including scatter plots, bubble plots, and parallel coordinate plots.
 * [**Basic Mapping**](https://spatialanalysis.github.io/lab_tutorials/4_R_Mapping.html): Finish working with NYC socioeconomic data by creating and customizing a variety of maps, including choropleth maps, conditional maps, and cartograms.
 
-![Choropleth Map of Abandoned Vehicle Per Capita in Chicago](tutorials/vehicles-choropleth.png) ![Box Map of Rent in NYC Boroughs](tutorials/box-map.png)
+![Choropleth Map of Abandoned Vehicle Per Capita in Chicago and Box Map of Rent in NYC](tutorials/choropleth-and-box-map.png)
 
