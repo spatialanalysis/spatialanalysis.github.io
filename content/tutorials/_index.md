@@ -1,50 +1,21 @@
 ---
-title: "Courses"
-description: "Demonstration of Hugo content management approach for subsection
-pages and associated breadcrumb menu."
-date: 2018-03-07T02:16:58-08:00
+title: "Tutorials"
+description: "Find learning resources and tutorials for open source spatial analysis"
 draft: false
 layout: subsection
-slug: courses
+slug: tutorials
 ---
 
+Note: tutorials are currently still under development, and more will be added in the upcoming year.
 
-This example "about" page, and other pages associated with the "About" section,
-illustrate two features provided by Hugo-Smorg:
+## Introduction to Spatial Data Science
 
-* **layout**: subsection
-* **partial**: breadcrumbs (included in subsection layout by default)
+Below are the R lab notes from Luc Anselin's [Introduction to Spatial Data Science](https://spatial.uchicago.edu/content/lectures-luc-anselin-uchicago) course at the University of Chicago. These labs mirror the [GeoDa notebooks](http://geodacenter.github.io/documentation.html), but use R rather than GeoDa.
 
-If you find a need for a layout like:
+* [**Spatial Data Handling**](https://spatialanalysis.github.io/lab_tutorials/1_R_Spatial_Data_Handling.html): Import, manipulate, and map abandoned vehicle data to make a choropleth map of abandoned vehicles per capita for Chicago community areas.
+* [**Exploratory Data Analysis 1 - Univariate and Bivariate Analysis**](https://spatialanalysis.github.io/lab_tutorials/2_R_EDA_1.html): Explore NYC socioeconomic data by borough and perform exploratory spatial analysis involving univariate plots, smoothing methods, and linear fits.
+* [**Exploratory Data Analysis 2 - Multivariate Exploration**](https://spatialanalysis.github.io/lab_tutorials/3_R_EDA_2.html): Continue to explore NYC socioeconomic data using spatial data analysis methods for three or more variables, including scatter plots, bubble plots, and parallel coordinate plots.
+* [**Basic Mapping**](https://spatialanalysis.github.io/lab_tutorials/4_R_Mapping.html): Finish working with NYC socioeconomic data by creating and customizing a variety of maps, including choropleth maps, conditional maps, and cartograms.
 
-	/about/
-	/about/contact/
-	/about/contact-my-dog/
-	/about/legal/
-
-Then `_default/subsection.html` layout and `partials/section-crumbs.html` may be just
-what you need. To use simply add the following variable to your front-matter in all
-content found within the "about" section, including its `_index.html`:
-
-	---
-	layout: subsection
-	---
-
-By default the link title is the Page's title (.Name); long titles won't work
-well; you can supply `slug` in font-matter to override this for breadcrumbs:
-
-	---
-	slug: board
-	---
-
-**Note**: Use of `slug` will also affect your Page's URL. Oftentimes this may
-be in line with what you want for a breadcrumb-appropriate menu. You can
-optionally maintain an alias to the former or any prior URI using [Hugo's alias
-feature](https://gohugo.io/content-management/urls/#how-hugo-aliases-work) in
-page frontmatter:
-
-	aliases: [/posts/my-old-url/]
-
-
-Get the theme here: https://github.com/solutionroute/hugo-smorg.
+![Choropleth Map of Abandoned Vehicle Per Capita in Chicago](tutorials/vehicles-choropleth.png) ![Box Map of Rent in NYC Boroughs](tutorials/box-map.png)
 

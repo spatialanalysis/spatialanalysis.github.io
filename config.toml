@@ -45,6 +45,6 @@ copyright = "&copy; 2018 Center for Spatial Data Science"
 [[menu.sectionmenu]]
   name = "Blog"
   url = "blog/"
-  identifier = "post"
+  identifier = "blog"
   weight = 50
   

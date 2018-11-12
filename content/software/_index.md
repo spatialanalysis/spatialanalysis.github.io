@@ -1,50 +1,16 @@
 ---
 title: "Software"
-description: "Demonstration of Hugo content management approach for subsection
-pages and associated breadcrumb menu."
-date: 2018-03-07T02:16:58-08:00
+description: "Links to download software such as GeoDa and PySAL, developed by the Center for Spatial Data Science"
 draft: false
 layout: subsection
 slug: software
 ---
 
+The following table provides an overview of the open source spatial software we have developed. To download, please visit the Center for Spatial Data Science's [software page](https://spatial.uchicago.edu/software).
 
-This example "about" page, and other pages associated with the "About" section,
-illustrate two features provided by Hugo-Smorg:
-
-* **layout**: subsection
-* **partial**: breadcrumbs (included in subsection layout by default)
-
-If you find a need for a layout like:
-
-	/about/
-	/about/contact/
-	/about/contact-my-dog/
-	/about/legal/
-
-Then `_default/subsection.html` layout and `partials/section-crumbs.html` may be just
-what you need. To use simply add the following variable to your front-matter in all
-content found within the "about" section, including its `_index.html`:
-
-	---
-	layout: subsection
-	---
-
-By default the link title is the Page's title (.Name); long titles won't work
-well; you can supply `slug` in font-matter to override this for breadcrumbs:
-
-	---
-	slug: board
-	---
-
-**Note**: Use of `slug` will also affect your Page's URL. Oftentimes this may
-be in line with what you want for a breadcrumb-appropriate menu. You can
-optionally maintain an alias to the former or any prior URI using [Hugo's alias
-feature](https://gohugo.io/content-management/urls/#how-hugo-aliases-work) in
-page frontmatter:
-
-	aliases: [/posts/my-old-url/]
-
-
-Get the theme here: https://github.com/solutionroute/hugo-smorg.
-
+|   |Name   |Functionality   |Platform & Code   |Language   
+|---|---|---|---|---|
+|![GeoDa Icon](software/geoda.png)   |GeoDa   |Introduction to Spatial Data Analysis: Exploratory (Spatial) Data Analysis & Spatial Regression   |Cross-platform (Win, OSX and Linux) and open source   |C++   |
+|![GeoDa Space Icon](software/geoda_space.png)   |GeoDaSpace   |Spatial econometrics (lag and error, endogenous variables, HAC, robust standard errors, spatial regimes)   |Cross-platform code in PySAL 1.3+   |Python   |   
+|![PySAL Icon](software/pysal.png)   |PySAL spreg API   |See GeoDaSpace; part of Dr. Serge Rey's PySAL library   |Cross-platform, open source   |Python   |   
+|**SPVCM**   |spvcm   |Gibbs sampling for spatially-correlated variance-components   |Cross-platform, open source   |Python   |   

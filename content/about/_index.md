@@ -1,50 +1,17 @@
 ---
 title: "About"
-description: "Demonstration of Hugo content management approach for subsection
-pages and associated breadcrumb menu."
-date: 2018-03-07T02:16:58-08:00
+description: "Information about the Center for Spatial Data Science at the University of Chicago and what we do"
 draft: false
 layout: subsection
 slug: about
 ---
 
+The Center for Spatial Data Science at the University of Chicago develops open source spatial software, tools, and methods. We actively develop the open source software [GeoDa](http://geodacenter.github.io), which provides a graphical interface for spatial analysis and is used by over 200,000 spatial analysts worldwide. We also contribute to the [PySAL library](https://pysal.readthedocs.io/en/latest/), a Python library of spatial analysis functions. 
 
-This example "about" page, and other pages associated with the "About" section,
-illustrate two features provided by Hugo-Smorg:
+Under the direction of Luc Anselin, we are building out spatial analysis tutorials and resources using open source programming languages such as R. Additionally, we are leading R spatial workshops at our center to teach researchers reproducible spatial methods. We plan to share resources at this website to encourage others to learn spatial methods.
 
-* **layout**: subsection
-* **partial**: breadcrumbs (included in subsection layout by default)
+For more about us, please visit our [center's website](https://spatial.uchicago.edu). Questions about our work can be directed to spatial@uchicago.edu.
 
-If you find a need for a layout like:
+![Photo of the Center for Spatial Data Science Team](about/csds_team.jpg)
 
-	/about/
-	/about/contact/
-	/about/contact-my-dog/
-	/about/legal/
-
-Then `_default/subsection.html` layout and `partials/section-crumbs.html` may be just
-what you need. To use simply add the following variable to your front-matter in all
-content found within the "about" section, including its `_index.html`:
-
-	---
-	layout: subsection
-	---
-
-By default the link title is the Page's title (.Name); long titles won't work
-well; you can supply `slug` in font-matter to override this for breadcrumbs:
-
-	---
-	slug: board
-	---
-
-**Note**: Use of `slug` will also affect your Page's URL. Oftentimes this may
-be in line with what you want for a breadcrumb-appropriate menu. You can
-optionally maintain an alias to the former or any prior URI using [Hugo's alias
-feature](https://gohugo.io/content-management/urls/#how-hugo-aliases-work) in
-page frontmatter:
-
-	aliases: [/posts/my-old-url/]
-
-
-Get the theme here: https://github.com/solutionroute/hugo-smorg.
-
+When we're not thinking about spatial methods, we enjoy stopping by the University of Chicago Pub.
