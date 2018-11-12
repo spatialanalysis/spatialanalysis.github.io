@@ -26,7 +26,7 @@
 							{{ range first 5 (where .Data.Pages "Section" "events") }}
 							<li><a href="{{.Permalink}}"><span class="icon">※</span>{{ .Title }}</a></li>
 							{{ end }}
-							<li><a href="{{ "project/" | absURL }}">More events<span class="icon">➤</span></a></li>
+							<li><a href="{{ "events/" | absURL }}">More events<span class="icon">➤</span></a></li>
 							</ul>
 						</div>
 						<div class="column">
