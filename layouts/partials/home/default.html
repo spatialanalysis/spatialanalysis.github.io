@@ -5,7 +5,7 @@
 	<div class="hero-body">
 		<div class="container">
 			<div class="columns">
-				<div class="column is-8 is-offset-2 has-text-centered">
+				<div class="column is-8 is-offset-2">
 					<h1 class="title">
 					  <span class="has-text-weight-bold">
 					    {{- with .Site.Params.homepgheader }}{{ . | safeHTML -}}
@@ -21,21 +21,21 @@
 					</div>
 					<div class="columns">
 					  <div class="column">
-							<h3 class="subtitle has-text-primary is-marginless">Events</h3>
-							<ul>
-							{{ range first 5 (where .Data.Pages "Section" "events") }}
-							<li><a href="{{.Permalink}}"><span class="icon">※</span>{{ .Title }}</a></li>
-							{{ end }}
-							<li><a href="{{ "events/" | absURL }}">More events<span class="icon">➤</span></a></li>
-							</ul>
-						</div>
-						<div class="column">
 							<h3 class="subtitle has-text-primary is-marginless">Blog Posts</h3>
 							<ul>
 							{{ range first 5 (where .Data.Pages "Section" "post") }}
 							<li><a href="{{.Permalink}}"><span class="icon">✎</span>{{ .Title }}</a></li>
 							{{ end }}
 							<li><a href="{{ "post/" | absURL}}">More posts<span class="icon">➤</span></a></li>
+							</ul>
+						</div>
+					  <div class="column">
+							<h3 class="subtitle has-text-primary is-marginless">Events</h3>
+							<ul>
+							{{ range first 5 (where .Data.Pages "Section" "events") }}
+							<li><a href="{{.Permalink}}"><span class="icon">※</span>{{ .Title }}</a></li>
+							{{ end }}
+							<li><a href="{{ "events/" | absURL }}">More events<span class="icon">➤</span></a></li>
 							</ul>
 						</div>
 					</div>
