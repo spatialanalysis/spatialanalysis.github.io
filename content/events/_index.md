@@ -20,4 +20,4 @@ Topics covered during the workshops include:
 
 Workshops are run at a beginner level, but previous experience with R is encouraged. Future workshops may delve into R packages for spatial econometrics and regression, such as `spatstat` and `spdep`.
 
-![Photo of R Spatial Study Group](events/rspatial-study-group.jpg)
+![Photo of R Spatial Study Group](events/rspatial-study-group.JPG)
