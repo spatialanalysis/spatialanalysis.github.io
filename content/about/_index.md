@@ -10,7 +10,7 @@ The Center for Spatial Data Science at the University of Chicago develops open s
 
 Under the direction of Luc Anselin, we are building out spatial analysis tutorials and resources using open source programming languages such as R. Additionally, we are leading R spatial workshops at our center to teach researchers reproducible spatial methods. We plan to share resources at this website to encourage others to learn spatial methods.
 
-For more about us, please visit our [center's website](https://spatial.uchicago.edu). Questions about our work can be directed to spatial@uchicago.edu.
+For more about the CSDS, please visit our [center's website](https://spatial.uchicago.edu). Questions about our work can be directed to spatial@uchicago.edu.
 
 ![Photo of the Center for Spatial Data Science Team](about/csds_team.jpg)
 
