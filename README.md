@@ -22,7 +22,7 @@ Thanks to [Chris Prener](https://github.com/slu-dss/slu-dss.github.io) and [Mine
 
 After making changes on the `hugo` branch, committing, and pushing them, run 
 ```
-bash setup.sh
+bash deploy.sh
 ```
 to update the site. There's a nasty combination of Github subtrees and branches underlying this site, because Hugo doesn't work super well with Github pages.
 
@@ -31,3 +31,4 @@ to update the site. There's a nasty combination of Github subtrees and branches 
 - To update page formatting, go to the `layouts` folder. You can copy and modify the original HTML layout files from `themes/hugo-smorg/layouts`.
 - **Don't edit the `public` folder!** (The stuff in there is automatically generated from the files in `content`.) 
 - Images for pages and posts as well as logo files are stored in the `static` folder. Use the RStudio `blogdown` addin to insert images easily.
+- To include a pure `html` file, add it to the `static/html` folder, and link to it with `html/name-of-file.html`
