@@ -16,8 +16,8 @@
 	{{- range .AlternativeOutputFormats }} <!-- RSS, Atom feeds -->
 	<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" 
 	      href="{{ .Permalink | safeURL }}" title="{{ $.Site.Title }}">{{ end }}
-	<link rel="icon" href="{{ .Site.BaseURL }}{{ .Site.Params.Favicon }}" type="image/x-icon">
-	<link rel="shortcut icon" href="{{ .Site.BaseURL }}{{ .Site.Params.Favicon }}" type="image/x-icon">
+	<link rel="icon" href="{{ .Site.BaseURL }}/{{ .Site.Params.Favicon }}" type="image/x-icon">
+	<link rel="shortcut icon" href="{{ .Site.BaseURL }}/{{ .Site.Params.Favicon }}" type="image/x-icon">
 	{{- end }}
 	<link rel="preload" href="{{ $.Site.Params.cssPath | default "css/smorg.css" | absURL }}" as="style">
 	<link rel="stylesheet" href="{{ $.Site.Params.cssPath | default "css/smorg.css" | absURL }}">
