@@ -19,3 +19,11 @@ Below are the R lab notes from Luc Anselin's [Introduction to Spatial Data Scien
 
 ![Choropleth Map of Abandoned Vehicle Per Capita in Chicago and Box Map of Rent in NYC](tutorials/choropleth-and-box-map.png)
 
+## Basic R Tutorials
+
+The following are notes that Luc Anselin has put together to introduce R to his undergraduate classes. They provide an overview of data manipulation and visualization methods, using geographic data as an example.
+
+* [**Manipulating Data Frames**](html/dataframes-notebook.html): Read, write, summarize, and wrangle data with the `foreign` R package (for dbf files) and the `tidyverse`.
+* [**Data Visualization (1)**](html/graphs1-notebook.html): Visualize data using the `ggplot2` package, creating scatterplots and fitting lines to NYC sub-borough data.
+* [**Data Visualization (2)**](html/graphs2-notebook.html): Extend the visualizations of the previous tutorial, using `ggplot2` to customize scatterplots, create histograms, boxplots, and more. Learn about reshaping data into a tidy format using `tidyr`.
+* [**Basic Mapping**](html/basic-mapping-notebook.html): Manipulate and map spatial data, creating custom choropleth maps with NYC borough data, using the `sf`, `tmap`, and `RColorBrewer` packages.
