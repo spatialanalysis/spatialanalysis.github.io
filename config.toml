@@ -9,8 +9,9 @@ publishdir = "public"
 copyright = "&copy; 2018 Center for Spatial Data Science"
 
 [params]
-  logofile = "CSDS_logo_white.png"
+  logofile = "csds_logo_white.png"
   logotype = "Center for Spatial Data Science" # in header and footer
+  favicon = "favicon.png"
   homepgheader = "Learn Spatial Analysis"
   homepgsubheader = "Online resources, tutorials, and more"
   footer = "Follow us on Twitter and Facebook! <br />"

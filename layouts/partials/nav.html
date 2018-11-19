@@ -3,8 +3,8 @@
 		<div class="container">
 			<div class="navbar-brand">
 				<a class="navbar-item has-text-white-ter" href="{{ .Site.BaseURL }}">
-				  {{- with .Site.Params.logotype }}{{ . | safeHTML -}}{{ else }}{{ "Add params:logotype" }}{{ end -}}
-				  <!-- <img class="logo" src="{{ .Site.Params.logofile | absURL }}" alt="Center for Spatial Data Science"> -->
+				  <!--{{- with .Site.Params.logotype }}{{ . | safeHTML -}}{{ else }}{{ "Add params:logotype" }}{{ end -}}-->
+				  <img src="{{ .Site.Params.logofile | absURL }}" alt="Center for Spatial Data Science">
 				</a>
 				<div class="navbar-burger burger" data-target="navMenu">
 				  <span></span>
