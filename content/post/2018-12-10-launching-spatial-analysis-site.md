@@ -18,8 +18,6 @@ Over the next few months, we plan to build out teaching materials based off of L
 
 In the short term, we're working on completing an R-based version of Luc’s lab notes for his Introduction to Spatial Data Science class at UChicago, mirroring the [GeoDa curriculum](http://geodacenter.github.io). These lab notes focus on spatial analysis with the open-source programming language R and can be found under [Tutorials](https://spatialanalysis.github.io/tutorials/). 
 
-<img src="/post/2018-12-10-launching-spatial-analysis-site_files/luc-teaching-screengrab.png" alt="Luc Anselin teaching Introduction to Spatial Data Science" align="middle" width="100%"/>
-
 Additionally, we plan to collect [links](https://spatialanalysis.github.io/links/) to useful spatial analysis resources, demos, and tutorials. Alongside these tutorials, we’ll share materials from our weekly R spatial workshops on this blog.
 
 ## Contribute your ideas!
