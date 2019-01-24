@@ -41,10 +41,6 @@
   </url>
   
   <url>
-    <loc>https://spatialanalysis.github.io/software/</loc>
-  </url>
-  
-  <url>
     <loc>https://spatialanalysis.github.io/tags/</loc>
     <priority>0</priority>
   </url>
