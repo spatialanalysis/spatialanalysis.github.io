@@ -6,18 +6,21 @@ layout: subsection
 slug: events
 ---
 
-During Fall 2018, the Center for Spatial Data Science is piloting a R Spatial Workshop for researchers, students, and staff. The workshops are run by [Angela Li](https://twitter.com/CivicAngela), R Spatial Advocate for the CSDS.
+During the 2018-2019 school year, the Center for Spatial Data Science is piloting a R Spatial Workshop for researchers, students, and staff. The workshops are run by [Angela Li](https://twitter.com/CivicAngela), R Spatial Advocate for the CSDS. Workshops are from **noon-1pm** on Tuesdays at Searle 240B, and are open to the university community. 
 
-Workshops are from **noon-1pm** on Tuesdays at Searle 240B, and are open to the university community. Please [join the CSDS mailing list](https://groups.google.com/forum/#!forum/csds-study-group) for more information.
+**New as of Winter 2019**: [Workshop notes and scripts](https://spatialanalysis.github.io/workshop-notes/) are posted online after each workshop, and serve as a record of what was covered at each workshop. These notes can also be used for self-study.
 
 Topics covered during the workshops include:
 
-* Using Git + R
-* Data manipulation and visualization with `dplyr` and `ggplot2`
-* Spatial data manipulation with `sf`
-* Mapping with `leaflet`
-* Cartography with `tmap`
+* Spatial data formats
+* Projections
+* Spatial data handling
+* Spatial data operations
+* Static maps
+* Interactive maps
+* Organization of research projects
+* Reproducible research with R
 
-Workshops are run at a beginner level, but previous experience with R is encouraged. Future workshops may delve into R packages for spatial econometrics and regression, such as `spatstat` and `spdep`.
+Workshops are run at a beginner level, but previous experience with R is encouraged. Future workshops may delve into R packages for spatial econometrics and regression, such as `spatstat` and `spdep`. Please [join the CSDS mailing list](https://groups.google.com/forum/#!forum/csds-study-group) for weekly updates regarding the workshop.
 
 ![Photo of R Spatial Study Group](events/rspatial-study-group.png)
