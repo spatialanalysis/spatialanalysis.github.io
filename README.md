@@ -32,3 +32,5 @@ to update the site. There's a nasty combination of Github subtrees and branches 
 - **Don't edit the `public` folder!** (The stuff in there is automatically generated from the files in `content`.) 
 - Images for pages and posts as well as logo files are stored in the `static` folder. Use the RStudio `blogdown` addin to insert images easily.
 - To include a pure `html` file, add it to the `static/html` folder, and link to it with `html/name-of-file.html`
+
+If things are going awry, uncomment `setup.sh` and run it, then follow the same process as detailed above.
