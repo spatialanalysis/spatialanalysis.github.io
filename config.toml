@@ -14,8 +14,8 @@ copyright = "&copy; 2018 Center for Spatial Data Science"
   favicon = "favicon.png"
   homepgheader = "Learn Spatial Analysis"
   homepgsubheader = "Online resources, tutorials, and more"
-  footer = "Follow us on Twitter and Facebook! <br />"
-  subfooter = "Questions or comments? File an issue on Github."
+  footer = "Follow us on [Twitter](https://twitter.com/GeoDaCenter) and [Facebook!](https://www.facebook.com/pg/geodacenter) <br />"
+  subfooter = "Questions or comments? File an issue on [Github](https://github.com/spatialanalysis/spatialanalysis.github.io/issues)."
 
 # Navigation Menu
 # Note that secondary pages have a YAML header that indicates a parent page
@@ -31,11 +31,11 @@ copyright = "&copy; 2018 Center for Spatial Data Science"
   identifier = "events"
   weight = 20  
   
-[[menu.sectionmenu]]
-  name = "Software"
-  url = "software/"
-  identifier = "software"
-  weight = 30  
+# [[menu.sectionmenu]]
+#  name = "Software"
+#  url = "software/"
+#  identifier = "software"
+#  weight = 30  
   
 [[menu.sectionmenu]]
   name = "Links"
