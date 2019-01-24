@@ -31,27 +31,21 @@ copyright = "&copy; 2018 Center for Spatial Data Science"
   identifier = "events"
   weight = 20  
   
-# [[menu.sectionmenu]]
-#  name = "Software"
-#  url = "software/"
-#  identifier = "software"
-#  weight = 30  
-  
 [[menu.sectionmenu]]
   name = "Links"
   url = "links/"
   identifier = "links"
-  weight = 40 
+  weight = 30 
 
 [[menu.sectionmenu]]
   name = "About"
   url = "about/"
   identifier = "about"
-  weight = 50
+  weight = 40
 
 [[menu.sectionmenu]]
   name = "Blog"
   url = "post/"
   identifier = "post"
-  weight = 60
+  weight = 50
   
