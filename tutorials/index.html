@@ -24,6 +24,17 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="theme-color" content="#ffffff">
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-82228289-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
 </head>
 <body>
 		
@@ -69,7 +80,7 @@
 					<h1 class="title is-3">Tutorials</h1>
 
 
-<p>Note: tutorials are currently still under development, and more will be added in the upcoming year.</p>
+<p>Note: tutorials are currently still under development, and more will be added in the upcoming year. All tutorials are in the R programming language, save for one PostGIS tutorial.</p>
 
 <h2 id="r-spatial-workshop-notes-new">R Spatial Workshop Notes - <strong>new!</strong></h2>
 
@@ -79,7 +90,7 @@
 
 <h2 id="introduction-to-spatial-data-science">Introduction to Spatial Data Science</h2>
 
-<p>Below are the R lab notes from Luc Anselin&rsquo;s <a href="https://spatial.uchicago.edu/content/lectures-luc-anselin-uchicago">Introduction to Spatial Data Science</a> course at the University of Chicago. These labs mirror the <a href="http://geodacenter.github.io/documentation.html">GeoDa notebooks</a>, but use R rather than GeoDa.</p>
+<p>Below are the R lab notes from Luc Anselin&rsquo;s <a href="https://spatial.uchicago.edu/content/lectures-luc-anselin-uchicago">Introduction to Spatial Data Science</a> course at the University of Chicago taught in Fall 2018. These labs mirror the <a href="http://geodacenter.github.io/documentation.html">GeoDa notebooks</a>, but use R rather than GeoDa. Thank you Grant Morrison for his work on these R tutorials.</p>
 
 <ul>
 <li><a href="https://spatialanalysis.github.io/lab_tutorials/1_R_Spatial_Data_Handling.html"><strong>Spatial Data Handling</strong></a>: Import, manipulate, and map abandoned vehicle data to make a choropleth map of abandoned vehicles per capita for Chicago community areas.</li>
@@ -89,6 +100,16 @@
 </ul>
 
 <p><img src="tutorials/choropleth-and-box-map.png" alt="Choropleth Map of Abandoned Vehicle Per Capita in Chicago and Box Map of Rent in NYC" /></p>
+
+<h2 id="cluster-analysis-in-r">Cluster Analysis in R</h2>
+
+<p>The following tutorials were prepared by Luc Anselin in 2017 for his Introduction to Spatial Data class.</p>
+
+<ul>
+<li><a href="https://geodacenter.github.io/tutorials/pca_mds/pca_mds.html"><strong>Dimension Reduction Methods</strong></a>: Learn about Principal Components Analysis (PCA) and multidimensional scaling using the [Guerry_85]() dataset and the <code>foreign</code> and <code>ggplot2</code> R packages.</li>
+<li><a href="https://geodacenter.github.io/tutorials/classic_cluster/classic_cluster.html"><strong>Classic Clustering Methods</strong></a>: Use hierarchical clustering and k-means clustering on the same dataset with the <code>hclust</code> and <code>kmeans</code> functions in base R.</li>
+<li><a href="https://geodacenter.github.io/tutorials/spatial_cluster/skater.html"><strong>Spatially Constrained Clustering Mehods</strong></a>: Carry out contiguity-constrained clustering with SKATER algorithm and the <code>rgdal</code>, <code>spdep</code>, and <code>maptools</code> packages.</li>
+</ul>
 
 <h2 id="basic-r-tutorials">Basic R Tutorials</h2>
 
@@ -100,6 +121,14 @@
 <li><a href="html/graphs2-notebook.html"><strong>Data Visualization (2)</strong></a>: Extend the visualizations of the previous tutorial, using <code>ggplot2</code> to customize scatterplots, create histograms, boxplots, and more. Learn about reshaping data into a tidy format using <code>tidyr</code>.</li>
 <li><a href="html/basic-mapping-notebook.html"><strong>Basic Mapping</strong></a>: Manipulate and map spatial data, creating custom choropleth maps with NYC borough data, using the <code>sf</code>, <code>tmap</code>, and <code>RColorBrewer</code> packages.</li>
 </ul>
+
+<h2 id="spatial-join-in-r">Spatial Join in R</h2>
+
+<p><a href="https://makosak.github.io/SpatialDataScience-Notebooks/SpatialJoin.html">This tutorial</a>, put together by Marynia Kolak in November 2017, shows how to do spatial joins and aggregations using the <code>spatialeco</code>, <code>foreign</code>, and <code>rgdal</code> packages. Updated content using the <code>sf</code> package will be uploaded shortly.</p>
+
+<h2 id="postgis-tutorial">PostGIS Tutorial</h2>
+
+<p>Learn how to create spatial queries and perform spatial analysis in PostGIS databases using <a href="https://github.com/Coleridge-Initiative/ada-2017-welfare/blob/master/notebooks/spatial_notebooks/Spatial-Queries-in-PostGIS.ipynb">this tutorial</a> developed by Clayton Hunter and Julia Koschinsky.</p>
 
 				</article>
 			</div>
