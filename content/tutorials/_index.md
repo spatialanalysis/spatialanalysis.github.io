@@ -44,8 +44,8 @@ The following are notes that Luc Anselin has put together to introduce R to his 
 
 ## Spatial Join in R
 
-[This tutorial](https://makosak.github.io/SpatialDataScience-Notebooks/SpatialJoin.html), put together by Marynia Kolak in November 2017, shows how to do spatial joins and aggregations using the `spatialeco`, `foreign`, and `rgdal` packages. Updated content using the `sf` package will be uploaded shortly. 
+[**This tutorial**](https://makosak.github.io/SpatialDataScience-Notebooks/SpatialJoin.html), put together by Marynia Kolak in November 2017, shows how to do spatial joins and aggregations using the `spatialeco`, `foreign`, and `rgdal` packages. Updated content using the `sf` package will be uploaded shortly. 
 
 ## PostGIS Tutorial
 
-Learn how to create spatial queries and perform spatial analysis in PostGIS databases using [this tutorial](https://github.com/Coleridge-Initiative/ada-2017-welfare/blob/master/notebooks/spatial_notebooks/Spatial-Queries-in-PostGIS.ipynb) developed by Clayton Hunter and Julia Koschinsky.
+Learn how to create spatial queries and perform spatial analysis in PostGIS databases using [**this tutorial**](https://github.com/Coleridge-Initiative/ada-2017-welfare/blob/master/notebooks/spatial_notebooks/Spatial-Queries-in-PostGIS.ipynb) developed by Clayton Hunter and Julia Koschinsky.
