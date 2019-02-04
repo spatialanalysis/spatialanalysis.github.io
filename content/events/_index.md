@@ -6,7 +6,9 @@ layout: subsection
 slug: events
 ---
 
-During the 2018-2019 school year, the Center for Spatial Data Science is piloting a R Spatial Workshop for researchers, students, and staff. The workshops are run by [Angela Li](https://twitter.com/CivicAngela), R Spatial Advocate for the CSDS. Workshops are from **noon-1pm** on Tuesdays at Searle 240B, and are open to the university community. 
+During the 2018-2019 school year, the Center for Spatial Data Science is piloting a R Spatial Workshop for researchers, students, and staff. The workshops are run by [Angela Li](https://twitter.com/CivicAngela), R Spatial Advocate for the CSDS. 
+
+Workshops are from **noon-1pm** on Tuesdays at Searle 240B, and are open to the university community. The workshop schedule can be found [here](https://spatialanalysis.github.io/events/workshop-schedule).
 
 **New as of Winter 2019**: [Workshop notes and scripts](https://spatialanalysis.github.io/workshop-notes/) are posted online after each workshop, and serve as a record of what was covered at each workshop. These notes can also be used for self-study.
 

@@ -33,6 +33,12 @@ copyright = "&copy; 2018 Center for Spatial Data Science"
   weight = 20  
   
 [[menu.sectionmenu]]
+  name = "Workshop Schedule"
+  url = "events/workshop-schedule/"
+  parent = "events"
+  weight = 201  
+  
+[[menu.sectionmenu]]
   name = "Links"
   url = "links/"
   identifier = "links"
