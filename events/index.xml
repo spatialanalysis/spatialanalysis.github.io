@@ -11,5 +11,16 @@
 	<atom:link href="https://spatialanalysis.github.io/events/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Workshop Schedule</title>
+      <link>https://spatialanalysis.github.io/events/workshop-schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/events/workshop-schedule/</guid>
+      <description>An outline of the workshop schedule is included below, with links to the workshop notes from each session. Specific skills covered at each workshop are subject to change, but the general outline of topics should remain the same.
+Learn more about the R Spatial Workshop on our main Events page.
+   Date Topic     January 15, 2019 Introduction to spatial data   January 22, 2019 Single-dataset GIS operations   January 29, 2019 Multi-dataset GIS operations pt 1   February 5, 2019 Multi-dataset GIS operations pt 2   February 12, 2019 R Markdown / Visualization with custom static maps   February 19, 2019 Creating animated maps   February 26, 2019 Visualization with interactive maps   March 5, 2019 Additional topics and packages (depending on if time)    </description>
+    </item>
+    
   </channel>
 </rss>
