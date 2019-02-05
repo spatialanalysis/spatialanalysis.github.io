@@ -15,7 +15,7 @@ Learn more about the R Spatial Workshop on our main [Events](https://spatialanal
 | January 15, 2019  | [**Introduction to spatial data**](https://spatialanalysis.github.io/workshop-notes/introduction-to-spatial-data.html)                          |
 | January 22, 2019  | [**Single-dataset GIS operations**](https://spatialanalysis.github.io/workshop-notes/single-dataset-gis-operations.html)                         |
 | January 29, 2019  | [**Multi-dataset GIS operations pt 1**](https://spatialanalysis.github.io/workshop-notes/multiple-dataset-gis-operations-visualization.html)                          |
-| February 5, 2019  | Multi-dataset GIS operations pt 2                     |
+| February 5, 2019  | [**Multi-dataset GIS operations pt 2**](https://spatialanalysis.github.io/workshop-notes/multiple-dataset-gis-operations-visualization-pt-2.html)                     |
 | February 12, 2019 | R Markdown / Visualization with custom static maps    |
 | February 19, 2019 | Creating animated maps                                |
 | February 26, 2019 | Visualization with interactive maps                   |
