@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Center for Spatial Data Science</copyright>
-    <lastBuildDate>Fri, 25 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://spatialanalysis.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>R for Social Scientists One-Day Workshop Offered</title>
+      <link>https://spatialanalysis.github.io/post/r-for-social-scientists/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/post/r-for-social-scientists/</guid>
+      <description>For our researchers During my weekly R Spatial Workshop, I teach the basics of how to make maps and work with spatial data in R to researchers. The topics we cover are mainly GIS and visualization focused. However, researchers often need to work with data in ways outside of these two specific areas. Learning to clean and manipulate tabular data is a useful skill for many researchers as it allows them to work more efficiently.</description>
+    </item>
     
     <item>
       <title>R Spatial Workshop Notes Posted Online</title>
