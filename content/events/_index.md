@@ -8,9 +8,9 @@ slug: events
 
 During the 2018-2019 school year, the Center for Spatial Data Science is piloting a R Spatial Workshop for researchers, students, and staff. The workshops are run by [Angela Li](https://twitter.com/CivicAngela), R Spatial Advocate for the CSDS. 
 
-Workshops are from **noon-1pm** on Tuesdays at Searle 240B, and are open to the university community. The workshop schedule can be found [here](https://spatialanalysis.github.io/events/workshop-schedule).
+**New as of Spring 2019**: We are running two workshop tracks this quarter: GIS/Visualization and Raster/Kriging. The GIS/Visualization workshop runs from **10-11am on Wednesday at Searle 240B** and the Raster/Kriging workshop runs from **2-3pm** the same day and location. These workshops are open to the university community, as well as outsiders (please email Angela at ali6@uchicago.edu for more information). 
 
-**New as of Winter 2019**: [Workshop notes and scripts](https://spatialanalysis.github.io/workshop-notes/) are posted online after each workshop, and serve as a record of what was covered at each workshop. These notes can also be used for self-study.
+[Workshop notes and scripts](https://spatialanalysis.github.io/workshop-notes/) are posted online after each workshop, and serve as a record of what was covered at each workshop. These notes can also be used for self-study. [Workshop schedules](https://spatialanalysis.github.io/events/workshop-schedule) can also be found online.
 
 Topics covered during the workshops include:
 
