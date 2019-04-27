@@ -6,6 +6,9 @@
 # https://hjdskes.github.io/blog/update-deploying-hugo-on-personal-github-pages/
 # for more information.
 
+# failure is a natural part of life
+set -e
+
 # Set the English locale for the `date` command.
 export LC_TIME=en_US.UTF-8
 
