@@ -7,6 +7,9 @@
 # # https://hjdskes.github.io/blog/update-deploying-hugo-on-personal-github-pages/
 # # for more information.
 # 
+# # failure is a natural part of life
+# set -e
+#
 # # Name of the branch containing the Hugo source files.
 # SOURCE=hugo
 # 
