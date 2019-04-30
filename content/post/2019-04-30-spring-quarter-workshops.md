@@ -18,6 +18,6 @@ This past quarter, we ran a workshop geared toward upskilling our center's resea
 
 We are running the **GIS/Visualization** workshop again this quarter at **10am on Wednesdays**, this time for individuals outside of our research center, including graduate students and undergraduates associated with groups like the Environmental Sciences and Ecology departments, as well as the Harris School of Public Policy. So far, we have been able to reach a diverse set of attendees and teach them how to use GIS data in their work.
 
-Additionally, we are introducing a new workshop for **Raster and Kriging** applications at **2pm on Wednesdays**. This workshop targets environmental applications and cases where researchers are working with satellite or surface-level data. The first half of these workshops uses the newly-developed Geospatial Data Carpentry course to introduce raster data, while the second half introduces how to get started with kriging in R.
+Additionally, we are introducing a new workshop for **Raster and Kriging** applications at **2pm on Wednesdays**. This workshop targets environmental applications and cases where researchers are working with satellite or surface-level data. The first half of these workshops uses the newly-developed [**Geospatial Data Carpentry**](https://datacarpentry.org/r-raster-vector-geospatial/) course to introduce raster data, while the second half introduces how to get started with kriging in R.
 
 We hope to see you at our [**Wednesday workshop series**](https://spatialanalysis.github.io/events/workshop-schedules/)!
