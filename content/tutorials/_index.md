@@ -14,6 +14,17 @@ Workshop notes and scripts from the R Spatial Workshop can be found at the [**fo
 
 Please see our [Events](https://spatialanalysis.github.io/events/) page for more information about these workshops.
 
+## Mapping Array of Things Data With Spatial Statistics - **new!**
+
+This two-part [spatial statistics tutorial](https://geodacenter.github.io/aot-workshop/) was put together by Anais Ladoy, Isaac Kamber, Marynia Kolak, Julia Koschinsky, and Luc Anselin, and focuses on using [**Array of Things sensor data**](https://aot-file-browser.plenar.io/data-sets/chicago-complete) to create map visualizations and perform spatial analysis. It has been taught at Argonne National Laboratory in August 2018 and at the Chicago Department of Public Health in April 2019.
+
+Download data for this workshop at [**this Github link**](https://github.com/GeoDaCenter/aot-workshop/tree/master/Data).
+
+* [**Part 1: Sensor Data Access and Mapping Basics**](https://geodacenter.github.io/aot-workshop/Part1-AOT.html): Learn to read and inspect data, convert data to spatial formats, map nodes with community areas, and develop a density map of sensors using buffers and re-projected data.
+* [**Part 2: Interpolating Temperature Data**](https://geodacenter.github.io/aot-workshop/Part2-AOT.html): Interpolate temperature readings to develop a kriging surface. Learn some filtering and aggregation techniques for data wrangling practice, and then prepare for two models of kriging (spherical and exponential). 
+
+![Array of Things Leaflet Interactive Maps with Kriging](/tutorials/_index_files/AOT Graphic.jpg)
+
 ## Introduction to Spatial Data Science
 
 Below are the R lab notes from Luc Anselin's [Introduction to Spatial Data Science](https://spatial.uchicago.edu/content/lectures-luc-anselin-uchicago) course at the University of Chicago taught in Fall 2018. These labs mirror the [GeoDa notebooks](http://geodacenter.github.io/documentation.html), but use R rather than GeoDa. Thank you Grant Morrison for his work on these R tutorials.
