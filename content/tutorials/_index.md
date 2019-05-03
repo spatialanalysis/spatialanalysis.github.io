@@ -23,7 +23,7 @@ Download data for this workshop at [**this Github link**](https://github.com/Geo
 * [**Part 1: Sensor Data Access and Mapping Basics**](https://geodacenter.github.io/aot-workshop/Part1-AOT.html): Learn to read and inspect data, convert data to spatial formats, map nodes with community areas, and develop a density map of sensors using buffers and re-projected data.
 * [**Part 2: Interpolating Temperature Data**](https://geodacenter.github.io/aot-workshop/Part2-AOT.html): Interpolate temperature readings to develop a kriging surface. Learn some filtering and aggregation techniques for data wrangling practice, and then prepare for two models of kriging (spherical and exponential). 
 
-![Array of Things Leaflet Interactive Maps with Kriging](/tutorials/_index_files/AOT Graphic.jpg)
+![Array of Things Leaflet Interactive Maps with Kriging](/tutorials/aot-leaflet-maps.png)
 
 ## Introduction to Spatial Data Science
 
