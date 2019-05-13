@@ -6,6 +6,7 @@ author = "Angela Li"
 googleAnalytics = "UA-82228289-2"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 publishdir = "public"
+paginate = 4
 
 copyright = "&copy; 2018 Center for Spatial Data Science"
 
