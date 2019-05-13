@@ -23,8 +23,8 @@
 					  <div class="column">
 							<h3 class="subtitle has-text-primary is-marginless">Blog Posts</h3>
 							<ul>
-							{{ range first 5 (where .Data.Pages "Section" "post") }}
-							<li><a href="{{.Permalink}}"><span class="icon">✎</span>{{ .Title }}</a></li>
+							{{ range first 3 (where .Data.Pages "Section" "post") }}
+							<li><a href="{{.Permalink}}"><span class="icon">✎</span><span class= "has-text-grey">{{ partial "page-date.html" . }}</span> {{ .Title }}</a></li>
 							{{ end }}
 							<li><a href="{{ "post/" | absURL}}">More posts<span class="icon">➤</span></a></li>
 							</ul>
