@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Center for Spatial Data Science</copyright>
-    <lastBuildDate>Tue, 07 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://spatialanalysis.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reflections on Our 2018-2019 Workshops</title>
+      <link>https://spatialanalysis.github.io/post/reflections-on-our-2018-2019-workshops/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/post/reflections-on-our-2018-2019-workshops/</guid>
+      <description>A successful year of workshops It&amp;rsquo;s summer at the CSDS, and that means we&amp;rsquo;re taking some time to reflect on the year and get ready for the year ahead. Our quarterly workshops have ended, and we have successfully run two research computing bootcamps.
+Our last bootcamp of the year, Introduction to R for Geospatial Raster Data, introduced researchers and geospatial data practitioners to using R for raster data analysis. It was the final event of the newly-organized Geospatial Science Symposium at UChicago, organized by Marynia Kolak and the undergraduate YouthMappers chapter, the Tobler Society.</description>
+    </item>
     
     <item>
       <title>Introduction to Geospatial Raster Data Workshop Offered</title>
