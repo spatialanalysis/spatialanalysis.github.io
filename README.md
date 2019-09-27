@@ -26,7 +26,7 @@ bash deploy.sh
 ```
 to update the site. There's a nasty combination of Github subtrees and branches underlying this site, because Hugo doesn't work super well with Github pages.
 
-- When in doubt, edit `config.toml`, for sitewide settings like the website title, headers, and footers.
+- When in doubt, edit `config.toml`, for sitewide settings like the website title, headers, and footers, and to add new menu navigation.
 - To update page content, add to the `content` folder. 
 - To update page formatting, go to the `layouts` folder. You can copy and modify the original HTML layout files from `themes/hugo-smorg/layouts`.
 - **Don't edit the `public` folder!** (The stuff in there is automatically generated from the files in `content`.) 
