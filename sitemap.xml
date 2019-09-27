@@ -3,13 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://spatialanalysis.github.io/events/past-workshops/</loc>
+  </url>
+  
+  <url>
     <loc>https://spatialanalysis.github.io/events/workshop-schedules/</loc>
   </url>
   
   <url>
     <loc>https://spatialanalysis.github.io/post/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -58,7 +61,6 @@
   
   <url>
     <loc>https://spatialanalysis.github.io/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -71,7 +73,6 @@
   
   <url>
     <loc>https://spatialanalysis.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
   <url>

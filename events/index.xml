@@ -12,14 +12,25 @@
     
     
     <item>
+      <title>Past Workshops</title>
+      <link>https://spatialanalysis.github.io/events/past-workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/events/past-workshops/</guid>
+      <description>During the 2018-2019 school year, the Center for Spatial Data Science piloted the R Spatial Workshop for researchers, students, and staff. The workshops were run by Angela Li, R Spatial Advocate for the CSDS. An outline of the workshops that were held are included below, with links to the workshop notes from each session.
+Topics covered during the workshops included:
+ Spatial data formats Projections Spatial data handling Spatial data operations Static maps Interactive maps Organization of research projects Reproducible research with R  Find the current quarter&amp;rsquo;s workshops on our main Events page.</description>
+    </item>
+    
+    <item>
       <title>Workshop Schedules</title>
       <link>https://spatialanalysis.github.io/events/workshop-schedules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://spatialanalysis.github.io/events/workshop-schedules/</guid>
-      <description>An outline of both workshop schedules is included below, with links to the workshop notes from each session. Specific skills covered at each workshop are subject to change, but the general outline of topics should remain the same.
+      <description> The current quarter&amp;rsquo;s workshop schedule is included below. Specific skills covered at each workshop are subject to change, but the general outline of topics should remain the same.
 Learn more about the R Spatial Workshop on our main Events page.
-GIS/Visualization    Date Topic     April 10, 2019 Introduction to spatial data   April 17, 2019 Single-dataset GIS operations   April 24, 2019 Multi-dataset GIS operations pt 1   May 1, 2019 Multi-dataset GIS operations pt 2   May 8, 2019 R Markdown   May 15, 2019 Custom static and animated maps   May 22, 2019 Visualization with interactive maps   May 29, 2019 Interactive web maps with Shiny    Raster/Kriging    Date Topic     April 10, 2019 Introduction to raster data   April 17, 2019 Raster pt.</description>
+Introduction to Spatial Data Science    Date Topic     October 8, 2019    October 15, 2019    October 22, 2019    October 29, 2019    November 5, 2019    November 12, 2019    November 19, 2019    November 26, 2019     </description>
     </item>
     
   </channel>
