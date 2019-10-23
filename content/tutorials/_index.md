@@ -8,22 +8,11 @@ slug: tutorials
 
 Note: tutorials are currently still under development, and more will be added in the upcoming year. All tutorials are in the R programming language, save for one PostGIS tutorial.
 
-## R Spatial Workshop Notes - **new!**
+## R Spatial Workshop Notes
 
 Workshop notes and scripts from the R Spatial Workshop can be found at the [**following link**](https://spatialanalysis.github.io/workshop-notes/). Topics to be covered include spatial data manipulation, mapping, and interactive visualization. 
 
 Please see our [Events](../events/) page for more information about these workshops.
-
-## Mapping Array of Things Data With Spatial Statistics - **new!**
-
-This two-part [spatial statistics tutorial](https://geodacenter.github.io/aot-workshop/) was put together by Anais Ladoy, Isaac Kamber, Marynia Kolak, Julia Koschinsky, and Luc Anselin, and focuses on using [**Array of Things sensor data**](https://aot-file-browser.plenar.io/data-sets/chicago-complete) to create map visualizations and perform spatial analysis. It has been taught at Argonne National Laboratory in August 2018 and at the Chicago Department of Public Health in April 2019.
-
-Download data for this workshop at [**this Github link**](https://github.com/GeoDaCenter/aot-workshop/tree/master/Data).
-
-* [**Part 1: Sensor Data Access and Mapping Basics**](https://geodacenter.github.io/aot-workshop/Part1-AOT.html): Learn to read and inspect data, convert data to spatial formats, map nodes with community areas, and develop a density map of sensors using buffers and re-projected data.
-* [**Part 2: Interpolating Temperature Data**](https://geodacenter.github.io/aot-workshop/Part2-AOT.html): Interpolate temperature readings to develop a kriging surface. Learn some filtering and aggregation techniques for data wrangling practice, and then prepare for two models of kriging (spherical and exponential). 
-
-![Array of Things Leaflet Interactive Maps with Kriging](/tutorials/aot-leaflet-maps.png)
 
 ## Introduction to Spatial Data Science
 
@@ -52,6 +41,17 @@ The following are notes that Luc Anselin has put together to introduce R to his 
 * [**Data Visualization (1)**](html/graphs1-notebook.html): Visualize data using the `ggplot2` package, creating scatterplots and fitting lines to NYC sub-borough data.
 * [**Data Visualization (2)**](html/graphs2-notebook.html): Extend the visualizations of the previous tutorial, using `ggplot2` to customize scatterplots, create histograms, boxplots, and more. Learn about reshaping data into a tidy format using `tidyr`.
 * [**Basic Mapping**](html/basic-mapping-notebook.html): Manipulate and map spatial data, creating custom choropleth maps with NYC borough data, using the `sf`, `tmap`, and `RColorBrewer` packages.
+
+## Mapping Array of Things Data With Spatial Statistics
+
+This two-part [spatial statistics tutorial](https://geodacenter.github.io/aot-workshop/) was put together by Anais Ladoy, Isaac Kamber, Marynia Kolak, Julia Koschinsky, and Luc Anselin, and focuses on using [**Array of Things sensor data**](https://aot-file-browser.plenar.io/data-sets/chicago-complete) to create map visualizations and perform spatial analysis. It has been taught at Argonne National Laboratory in August 2018 and at the Chicago Department of Public Health in April 2019.
+
+Download data for this workshop at [**this Github link**](https://github.com/GeoDaCenter/aot-workshop/tree/master/Data).
+
+* [**Part 1: Sensor Data Access and Mapping Basics**](https://geodacenter.github.io/aot-workshop/Part1-AOT.html): Learn to read and inspect data, convert data to spatial formats, map nodes with community areas, and develop a density map of sensors using buffers and re-projected data.
+* [**Part 2: Interpolating Temperature Data**](https://geodacenter.github.io/aot-workshop/Part2-AOT.html): Interpolate temperature readings to develop a kriging surface. Learn some filtering and aggregation techniques for data wrangling practice, and then prepare for two models of kriging (spherical and exponential). 
+
+![Array of Things Leaflet Interactive Maps with Kriging](/tutorials/aot-leaflet-maps.png)
 
 ## Spatial Join in R
 
