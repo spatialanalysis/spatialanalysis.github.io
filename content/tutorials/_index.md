@@ -23,13 +23,21 @@ Below are the R lab notes from Luc Anselin's [Introduction to Spatial Data Scien
 * [**Exploratory Data Analysis 2 - Multivariate Exploration**](https://spatialanalysis.github.io/lab_tutorials/3_R_EDA_2.html): Continue to explore NYC socioeconomic data using spatial data analysis methods for three or more variables, including scatter plots, bubble plots, and parallel coordinate plots.
 * [**Basic Mapping**](https://spatialanalysis.github.io/lab_tutorials/4_R_Mapping.html): Finish working with NYC socioeconomic data by creating and customizing a variety of maps, including choropleth maps, conditional maps, and cartograms.
 
+### Spatial Weights Tutorials - **new!**
+
+* [**Rate Mapping**](https://spatialanalysis.github.io/lab_tutorials/Rate_mapping.html): Create rate maps using Cleveland house price data.
+* [**Contiguity Spatial Weights**](https://spatialanalysis.github.io/lab_tutorials/Contiguity_Spatial_Weights.html): Construct and interpret contiguity-based spatial weights with US county-level homicide data.
+* [**Distance-Based Spatial Weights**](https://spatialanalysis.github.io/lab_tutorials/Distance_Based_Spatial_Weights.html): Construct and interpret distance-based spatial weights with Cleveland home sales data.
+* [**Spatial Weights as Distance Functions**](https://spatialanalysis.github.io/lab_tutorials/Spatial_Weights_as_Distance_Functions.html): Compute inverse distance and kernel weights functions with Cleveland home sales data.
+* [**Applications of Spatial Weights**](https://spatialanalysis.github.io/lab_tutorials/Applications_of_Spatial_Weights.html): Create spatially lagged variables and rates, perform spatial smoothing with Cleveland home sales data.
+
 ![Choropleth Map of Abandoned Vehicle Per Capita in Chicago and Box Map of Rent in NYC](tutorials/choropleth-and-box-map.png)
 
 ## Cluster Analysis in R
 
 The following tutorials were prepared by Luc Anselin in 2017 for his Introduction to Spatial Data class. 
 
-* [**Dimension Reduction Methods**](https://geodacenter.github.io/tutorials/pca_mds/pca_mds.html): Learn about Principal Components Analysis (PCA) and multidimensional scaling using the [Guerry_85]() dataset and the `foreign` and `ggplot2` R packages.
+* [**Dimension Reduction Methods**](https://geodacenter.github.io/tutorials/pca_mds/pca_mds.html): Learn about Principal Components Analysis (PCA) and multidimensional scaling using the [Guerry](https://geodacenter.github.io/data-and-lab/Guerry/) dataset and the `foreign` and `ggplot2` R packages.
 * [**Classic Clustering Methods**](https://geodacenter.github.io/tutorials/classic_cluster/classic_cluster.html): Use hierarchical clustering and k-means clustering on the same dataset with the `hclust` and `kmeans` functions in base R.
 * [**Spatially Constrained Clustering Mehods**](https://geodacenter.github.io/tutorials/spatial_cluster/skater.html): Carry out contiguity-constrained clustering with SKATER algorithm and the `rgdal`, `spdep`, and `maptools` packages.
 
