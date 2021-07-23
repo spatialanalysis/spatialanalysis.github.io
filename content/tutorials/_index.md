@@ -68,3 +68,16 @@ Download data for this workshop at [**this Github link**](https://github.com/Geo
 ## PostGIS Tutorial
 
 Learn how to create spatial queries and perform spatial analysis in PostGIS databases using [**this tutorial**](https://github.com/Coleridge-Initiative/ada-2017-welfare/blob/master/notebooks/spatial_notebooks/Spatial-Queries-in-PostGIS.ipynb) developed by Clayton Hunter and Julia Koschinsky.
+
+## [Opioid Environment Toolkit](https://geodacenter.github.io/opioid-environment-toolkit/index.html)
+Introduction to Spatial Analysis for Opioid Environments in R 
+
+This toolkit provides an introduction to GIS and spatial analysis for opioid environment applications, allowing researchers, analysts, and practitioners to support their communities with better data analytics and visualization services. It introduces basic spatial analytic functionalities in R (tmap, sf, tidygeocoder, tidycensus, tigris) using applied examples for visualizing, mapping, and understanding the opioid risk environment. It covers the following topics: 
+
+* [**Geocoding Resource Locations**](https://geodacenter.github.io/opioid-environment-toolkit/geocodingAddress-tutorial.html)
+* [**Linking Community Data**](https://geodacenter.github.io/opioid-environment-toolkit/link-contextual-data.html)
+* [**Census Data Wrangling**](https://geodacenter.github.io/opioid-environment-toolkit/getACSData-tutorial.html)
+* [**Thematic Mapping**](https://geodacenter.github.io/opioid-environment-toolkit/visualizeArealData-tutorial.html)
+* [**Nearest Resource Analysis**](https://geodacenter.github.io/opioid-environment-toolkit/centroid-access-tutorial.html)
+
+The Opioid Environment Toolkit was developed by the [Healthy Regions & Policies Lab](https://voices.uchicago.edu/herop/) as part of the [Justice Community Opioid Innovation Network (JCOIN)](https://heal.nih.gov/research/research-to-practice/jcoin) of the NIH HEAL Initiative.
