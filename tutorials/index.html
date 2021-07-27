@@ -1,0 +1,202 @@
+<!DOCTYPE html> 
+<html lang="en-us">
+<head>
+	<title>
+		Tutorials - Learn Spatial Analysis | Center for Spatial Data Science
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index,follow">
+	<base href="https://spatialanalysis.github.io">
+	<link rel="canonical" href="https://spatialanalysis.github.io/tutorials/"> 
+	<link rel="alternate" type="application/rss&#43;xml" 
+	      href="https://spatialanalysis.github.io/tutorials/index.xml" title="Learn Spatial Analysis | Center for Spatial Data Science">
+	<link rel="icon" href="https://spatialanalysis.github.io/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="https://spatialanalysis.github.io/favicon.png" type="image/x-icon">
+	<link rel="preload" href="https://spatialanalysis.github.io/css/smorg.css" as="style">
+	<link rel="stylesheet" href="https://spatialanalysis.github.io/css/smorg.css">
+	<meta name="generator" content="Hugo 0.86.0" />
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-82228289-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</head>
+<body>
+		
+	<nav class="navbar" aria-label="main navigation">
+		<div class="container">
+			<div class="navbar-brand">
+				<a class="navbar-item has-text-white-ter" href="https://spatialanalysis.github.io">
+				  
+				  <img src="https://spatialanalysis.github.io/csds_logo_white.png" alt="Center for Spatial Data Science">
+				</a>
+				<div class="navbar-burger burger" data-target="navMenu">
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				</div>
+			</div>
+			<div class="navbar-menu" id="navMenu">
+				<div class="navbar-end">
+					
+	<a class="navbar-item" href="https://spatialanalysis.github.io/tutorials/">Tutorials</a>
+
+	<div class="navbar-item has-dropdown is-hoverable">
+		
+	<a class="navbar-link" href="https://spatialanalysis.github.io/events/">Events</a>
+<div class="navbar-dropdown">
+	<a class="navbar-item" href="https://spatialanalysis.github.io/events/workshop-schedules/">Workshop Schedules</a>
+
+	<a class="navbar-item" href="https://spatialanalysis.github.io/events/past-workshops/">Past Workshops</a>
+</div>
+	</div>
+	<a class="navbar-item" href="https://spatialanalysis.github.io/links/">Links</a>
+
+	<a class="navbar-item" href="https://spatialanalysis.github.io/about/">About</a>
+
+	<a class="navbar-item" href="https://spatialanalysis.github.io/post/">Blog</a>
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+<section class="section" itemscope itemtype="http://schema.org/WebPage">
+	<div class="container">
+		<div class="columns">
+			<div class="column is-8 is-offset-2">
+				<article class="content">
+					<h1 class="title is-3">Tutorials</h1>
+<p>Note: tutorials are currently still under development, and more will be added in the upcoming year. All tutorials are in the R programming language, save for one PostGIS tutorial.</p>
+<h2 id="r-spatial-workshop-notes">R Spatial Workshop Notes</h2>
+<p>Workshop notes and scripts from the R Spatial Workshop can be found at the <a href="https://spatialanalysis.github.io/workshop-notes/"><strong>following link</strong></a>. Topics to be covered include spatial data manipulation, mapping, and interactive visualization.</p>
+<p>Please see our <a href="../events/">Events</a> page for more information about these workshops.</p>
+<h2 id="introduction-to-spatial-data-science">Introduction to Spatial Data Science</h2>
+<p>Below are the R lab notes from Luc Anselin&rsquo;s <a href="https://spatial.uchicago.edu/content/lectures-luc-anselin-uchicago">Introduction to Spatial Data Science</a> course at the University of Chicago taught in Fall 2018. These labs mirror the <a href="http://geodacenter.github.io/documentation.html">GeoDa notebooks</a>, but use R rather than GeoDa. Thank you Grant Morrison for his work on these R tutorials.</p>
+<ul>
+<li><a href="https://spatialanalysis.github.io/lab_tutorials/1_R_Spatial_Data_Handling.html"><strong>Spatial Data Handling</strong></a>: Import, manipulate, and map abandoned vehicle data to make a choropleth map of abandoned vehicles per capita for Chicago community areas.</li>
+<li><a href="https://spatialanalysis.github.io/lab_tutorials/2_R_EDA_1.html"><strong>Exploratory Data Analysis 1 - Univariate and Bivariate Analysis</strong></a>: Explore NYC socioeconomic data by borough and perform exploratory spatial analysis involving univariate plots, smoothing methods, and linear fits.</li>
+<li><a href="https://spatialanalysis.github.io/lab_tutorials/3_R_EDA_2.html"><strong>Exploratory Data Analysis 2 - Multivariate Exploration</strong></a>: Continue to explore NYC socioeconomic data using spatial data analysis methods for three or more variables, including scatter plots, bubble plots, and parallel coordinate plots.</li>
+<li><a href="https://spatialanalysis.github.io/lab_tutorials/4_R_Mapping.html"><strong>Basic Mapping</strong></a>: Finish working with NYC socioeconomic data by creating and customizing a variety of maps, including choropleth maps, conditional maps, and cartograms.</li>
+</ul>
+<h3 id="spatial-weights-tutorials---new">Spatial Weights Tutorials - <strong>new!</strong></h3>
+<ul>
+<li><a href="https://spatialanalysis.github.io/lab_tutorials/Rate_mapping.html"><strong>Rate Mapping</strong></a>: Create rate maps using Cleveland house price data.</li>
+<li><a href="https://spatialanalysis.github.io/lab_tutorials/Contiguity_Spatial_Weights.html"><strong>Contiguity Spatial Weights</strong></a>: Construct and interpret contiguity-based spatial weights with US county-level homicide data.</li>
+<li><a href="https://spatialanalysis.github.io/lab_tutorials/Distance_Based_Spatial_Weights.html"><strong>Distance-Based Spatial Weights</strong></a>: Construct and interpret distance-based spatial weights with Cleveland home sales data.</li>
+<li><a href="https://spatialanalysis.github.io/lab_tutorials/Spatial_Weights_as_Distance_Functions.html"><strong>Spatial Weights as Distance Functions</strong></a>: Compute inverse distance and kernel weights functions with Cleveland home sales data.</li>
+<li><a href="https://spatialanalysis.github.io/lab_tutorials/Applications_of_Spatial_Weights.html"><strong>Applications of Spatial Weights</strong></a>: Create spatially lagged variables and rates, perform spatial smoothing with Cleveland home sales data.</li>
+</ul>
+<p><img src="tutorials/choropleth-and-box-map.png" alt="Choropleth Map of Abandoned Vehicle Per Capita in Chicago and Box Map of Rent in NYC"></p>
+<h2 id="cluster-analysis-in-r">Cluster Analysis in R</h2>
+<p>The following tutorials were prepared by Luc Anselin in 2017 for his Introduction to Spatial Data class.</p>
+<ul>
+<li><a href="https://geodacenter.github.io/tutorials/pca_mds/pca_mds.html"><strong>Dimension Reduction Methods</strong></a>: Learn about Principal Components Analysis (PCA) and multidimensional scaling using the <a href="https://geodacenter.github.io/data-and-lab/Guerry/">Guerry</a> dataset and the <code>foreign</code> and <code>ggplot2</code> R packages.</li>
+<li><a href="https://geodacenter.github.io/tutorials/classic_cluster/classic_cluster.html"><strong>Classic Clustering Methods</strong></a>: Use hierarchical clustering and k-means clustering on the same dataset with the <code>hclust</code> and <code>kmeans</code> functions in base R.</li>
+<li><a href="https://geodacenter.github.io/tutorials/spatial_cluster/skater.html"><strong>Spatially Constrained Clustering Mehods</strong></a>: Carry out contiguity-constrained clustering with SKATER algorithm and the <code>rgdal</code>, <code>spdep</code>, and <code>maptools</code> packages.</li>
+</ul>
+<h2 id="basic-r-tutorials">Basic R Tutorials</h2>
+<p>The following are notes that Luc Anselin has put together to introduce R to his undergraduate classes. They provide an overview of data manipulation and visualization methods, using geographic data as an example.</p>
+<ul>
+<li><a href="html/dataframes-notebook.html"><strong>Manipulating Data Frames</strong></a>: Read, write, summarize, and wrangle data with the <code>foreign</code> R package (for dbf files) and the <code>tidyverse</code>.</li>
+<li><a href="html/graphs1-notebook.html"><strong>Data Visualization (1)</strong></a>: Visualize data using the <code>ggplot2</code> package, creating scatterplots and fitting lines to NYC sub-borough data.</li>
+<li><a href="html/graphs2-notebook.html"><strong>Data Visualization (2)</strong></a>: Extend the visualizations of the previous tutorial, using <code>ggplot2</code> to customize scatterplots, create histograms, boxplots, and more. Learn about reshaping data into a tidy format using <code>tidyr</code>.</li>
+<li><a href="html/basic-mapping-notebook.html"><strong>Basic Mapping</strong></a>: Manipulate and map spatial data, creating custom choropleth maps with NYC borough data, using the <code>sf</code>, <code>tmap</code>, and <code>RColorBrewer</code> packages.</li>
+</ul>
+<h2 id="mapping-array-of-things-data-with-spatial-statistics">Mapping Array of Things Data With Spatial Statistics</h2>
+<p>This two-part <a href="https://geodacenter.github.io/aot-workshop/">spatial statistics tutorial</a> was put together by Anais Ladoy, Isaac Kamber, Marynia Kolak, Julia Koschinsky, and Luc Anselin, and focuses on using <a href="https://aot-file-browser.plenar.io/data-sets/chicago-complete"><strong>Array of Things sensor data</strong></a> to create map visualizations and perform spatial analysis. It has been taught at Argonne National Laboratory in August 2018 and at the Chicago Department of Public Health in April 2019.</p>
+<p>Download data for this workshop at <a href="https://github.com/GeoDaCenter/aot-workshop/tree/master/Data"><strong>this Github link</strong></a>.</p>
+<ul>
+<li><a href="https://geodacenter.github.io/aot-workshop/Part1-AOT.html"><strong>Part 1: Sensor Data Access and Mapping Basics</strong></a>: Learn to read and inspect data, convert data to spatial formats, map nodes with community areas, and develop a density map of sensors using buffers and re-projected data.</li>
+<li><a href="https://geodacenter.github.io/aot-workshop/Part2-AOT.html"><strong>Part 2: Interpolating Temperature Data</strong></a>: Interpolate temperature readings to develop a kriging surface. Learn some filtering and aggregation techniques for data wrangling practice, and then prepare for two models of kriging (spherical and exponential).</li>
+</ul>
+<p><img src="/tutorials/aot-leaflet-maps.png" alt="Array of Things Leaflet Interactive Maps with Kriging"></p>
+<h2 id="postgis-tutorial">PostGIS Tutorial</h2>
+<p>Learn how to create spatial queries and perform spatial analysis in PostGIS databases using <a href="https://github.com/Coleridge-Initiative/ada-2017-welfare/blob/master/notebooks/spatial_notebooks/Spatial-Queries-in-PostGIS.ipynb"><strong>this tutorial</strong></a> developed by Clayton Hunter and Julia Koschinsky.</p>
+<h2 id="opioid-environment-toolkithttpsgeodacentergithubioopioid-environment-toolkitindexhtml"><a href="https://geodacenter.github.io/opioid-environment-toolkit/index.html">Opioid Environment Toolkit</a></h2>
+<p>Introduction to Spatial Analysis for Opioid Environments in R </p>
+<p>This toolkit provides an introduction to GIS and spatial analysis for opioid environment applications, allowing researchers, analysts, and practitioners to support their communities with better data analytics and visualization services. It introduces basic spatial analytic functionalities in R (tmap, sf, tidygeocoder, tidycensus, tigris) using applied examples for visualizing, mapping, and understanding the opioid risk environment. It covers the following topics: </p>
+<ul>
+<li><a href="https://geodacenter.github.io/opioid-environment-toolkit/geocodingAddress-tutorial.html"><strong>Geocoding Resource Locations</strong></a></li>
+<li><a href="https://geodacenter.github.io/opioid-environment-toolkit/link-contextual-data.html"><strong>Linking Community Data</strong></a></li>
+<li><a href="https://geodacenter.github.io/opioid-environment-toolkit/getACSData-tutorial.html"><strong>Census Data Wrangling</strong></a></li>
+<li><a href="https://geodacenter.github.io/opioid-environment-toolkit/visualizeArealData-tutorial.html"><strong>Thematic Mapping</strong></a></li>
+<li><a href="https://geodacenter.github.io/opioid-environment-toolkit/centroid-access-tutorial.html"><strong>Nearest Resource Analysis</strong></a></li>
+</ul>
+<p>The Opioid Environment Toolkit was developed by the <a href="https://voices.uchicago.edu/herop/">Healthy Regions &amp; Policies Lab</a> as part of the <a href="https://heal.nih.gov/research/research-to-practice/jcoin">Justice Community Opioid Innovation Network (JCOIN)</a> of the NIH HEAL Initiative.</p>
+
+				</article>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+  <div class="container content">
+	<div class="has-text-centered">
+		<p>Follow us on <a href="https://twitter.com/GeoDaCenter">Twitter</a> and <a href="https://www.facebook.com/pg/geodacenter">Facebook!</a> <!-- raw HTML omitted -->
+			  
+		   Center for Spatial Data Science
+			   
+		   </p>
+		<hr>
+		<p class="has-text-grey is-size-7">
+		 Questions or comments? File an issue on <a href="https://github.com/spatialanalysis/spatialanalysis.github.io/issues">Github</a>.<br>
+			   
+		 © 2018 Center for Spatial Data Science<br>
+			   
+		</p>
+	</div>
+  </div>
+</footer>
+
+
+<script type="application/ld+json">
+{ 
+	"@context": "http://schema.org", 
+	"@type": "WebPage",
+	"@id": "https:\/\/spatialanalysis.github.io\/tutorials\/",
+	"name": "Tutorials","description": "Find learning resources and tutorials for open source spatial analysis"
+}
+</script>
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+  if ($navbarBurgers.length > 0) {
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener('click', function () {
+        var target = $el.dataset.target;
+        var $target = document.getElementById(target);
+        $el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+      });
+    });
+  }
+});
+</script>
+ 
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Learn Spatial Analysis | Center for Spatial Data Science</title>
+    <link>https://spatialanalysis.github.io/tags/</link>
+    <description>Recent content in Tags on Learn Spatial Analysis | Center for Spatial Data Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Center for Spatial Data Science</copyright><atom:link href="https://spatialanalysis.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

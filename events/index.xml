@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Learn Spatial Analysis | Center for Spatial Data Science</title>
+    <link>https://spatialanalysis.github.io/events/</link>
+    <description>Recent content in Events on Learn Spatial Analysis | Center for Spatial Data Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Center for Spatial Data Science</copyright><atom:link href="https://spatialanalysis.github.io/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Past Workshops</title>
+      <link>https://spatialanalysis.github.io/events/past-workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/events/past-workshops/</guid>
+      <description>During the 2018-2019 school year, the Center for Spatial Data Science piloted the R Spatial Workshop for researchers, students, and staff. The workshops were run by Angela Li, R Spatial Advocate for the CSDS. An outline of the workshops that were held are included below, with links to the workshop notes from each session.
+Topics covered during the workshops included:
+ Spatial data formats Projections Spatial data handling Spatial data operations Static maps Interactive maps Organization of research projects Reproducible research with R  Find the current quarter&amp;rsquo;s workshops on our main Events page.</description>
+    </item>
+    
+    <item>
+      <title>Workshop Schedules</title>
+      <link>https://spatialanalysis.github.io/events/workshop-schedules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/events/workshop-schedules/</guid>
+      <description>The current quarter&amp;rsquo;s workshop schedule is included below. Specific skills covered at each workshop are subject to change, but the general outline of topics should remain the same.
+Learn more about the R Spatial Workshop on our main Events page.
+Introduction to Spatial Data Science    Date Topic     October 8, 2019 Spatial data handling   October 15, 2019 Exploratory spatial data analysis   October 22, 2019 Basic mapping   October 29, 2019 Spatial autocorrelation   November 5, 2019 Global spatial autocorrelation   November 12, 2019 Local spatial autocorrelation   November 19, 2019 Classic clustering   November 26, 2019 Spatially constrained clustering    </description>
+    </item>
+    
+  </channel>
+</rss>

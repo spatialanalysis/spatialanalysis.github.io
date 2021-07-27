@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learn Spatial Analysis on Learn Spatial Analysis | Center for Spatial Data Science</title>
+    <link>https://spatialanalysis.github.io/</link>
+    <description>Recent content in Learn Spatial Analysis on Learn Spatial Analysis | Center for Spatial Data Science</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Center for Spatial Data Science</copyright>
+    <lastBuildDate>Tue, 02 Oct 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://spatialanalysis.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Past Workshops</title>
+      <link>https://spatialanalysis.github.io/events/past-workshops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/events/past-workshops/</guid>
+      <description>During the 2018-2019 school year, the Center for Spatial Data Science piloted the R Spatial Workshop for researchers, students, and staff. The workshops were run by Angela Li, R Spatial Advocate for the CSDS. An outline of the workshops that were held are included below, with links to the workshop notes from each session.
+Topics covered during the workshops included:
+ Spatial data formats Projections Spatial data handling Spatial data operations Static maps Interactive maps Organization of research projects Reproducible research with R  Find the current quarter&amp;rsquo;s workshops on our main Events page.</description>
+    </item>
+    
+    <item>
+      <title>Workshop Schedules</title>
+      <link>https://spatialanalysis.github.io/events/workshop-schedules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/events/workshop-schedules/</guid>
+      <description>The current quarter&amp;rsquo;s workshop schedule is included below. Specific skills covered at each workshop are subject to change, but the general outline of topics should remain the same.
+Learn more about the R Spatial Workshop on our main Events page.
+Introduction to Spatial Data Science    Date Topic     October 8, 2019 Spatial data handling   October 15, 2019 Exploratory spatial data analysis   October 22, 2019 Basic mapping   October 29, 2019 Spatial autocorrelation   November 5, 2019 Global spatial autocorrelation   November 12, 2019 Local spatial autocorrelation   November 19, 2019 Classic clustering   November 26, 2019 Spatially constrained clustering    </description>
+    </item>
+    
+    <item>
+      <title>Reflections on Our 2018-2019 Workshops</title>
+      <link>https://spatialanalysis.github.io/post/reflections-on-our-2018-2019-workshops/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/post/reflections-on-our-2018-2019-workshops/</guid>
+      <description>A successful year of workshops It&amp;rsquo;s summer at the CSDS, and that means we&amp;rsquo;re taking some time to reflect on the year and get ready for the year ahead. Our quarterly workshops have ended, and we have successfully run two research computing bootcamps.
+Our last bootcamp of the year, Introduction to R for Geospatial Raster Data, introduced researchers and geospatial data practitioners to using R for raster data analysis. It was the final event of the newly-organized Geospatial Science Symposium at UChicago, organized by Marynia Kolak and the undergraduate YouthMappers chapter, the Tobler Society.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Geospatial Raster Data Workshop Offered</title>
+      <link>https://spatialanalysis.github.io/post/geospatial-raster-data-workshop/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/post/geospatial-raster-data-workshop/</guid>
+      <description>Our second Data Carpentry workshop We are hosting our second Data Carpentry workshop at the Center for Spatial Data Science on May 31, 2019, this time, on introduction to R for geospatial data.
+Previously, we ran a full-day R for Social Scientists workshop to introduce researchers to the programming language. We had 30 individuals attend, including undergraduates, graduate students, postdoctoral students, and faculty, along with one or two individuals outside of academia.</description>
+    </item>
+    
+    <item>
+      <title>Spring Quarter Workshops Available</title>
+      <link>https://spatialanalysis.github.io/post/spring-quarter-workshops/</link>
+      <pubDate>Tue, 30 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/post/spring-quarter-workshops/</guid>
+      <description>Reflecting on last quarter&amp;rsquo;s workshop This past quarter, we ran a workshop geared toward upskilling our center&amp;rsquo;s researchers through a series of 8 modular units focused on GIS operations in R, and later visualization. Each workshop was designed to provide a concrete chunk of learning that would help researchers with a specific task in R. The notes from the workshop were referenced by researchers outside of our center and served as a useful record for those who could not always make it to in-person workshops.</description>
+    </item>
+    
+    <item>
+      <title>R for Social Scientists One-Day Workshop Offered</title>
+      <link>https://spatialanalysis.github.io/post/r-for-social-scientists/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/post/r-for-social-scientists/</guid>
+      <description>For our researchers During my weekly R Spatial Workshop, I teach the basics of how to make maps and work with spatial data in R to researchers. The topics we cover are mainly GIS and visualization focused. However, researchers often need to work with data in ways outside of these two specific areas. Learning to clean and manipulate tabular data is a useful skill for many researchers as it allows them to work more efficiently.</description>
+    </item>
+    
+    <item>
+      <title>R Spatial Workshop Notes Posted Online</title>
+      <link>https://spatialanalysis.github.io/post/workshop-notes-online/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/post/workshop-notes-online/</guid>
+      <description>What&amp;rsquo;s new Notes from our weekly R Spatial Workshop are now online this quarter. Developed by Angela Li, these notes cover spatial data import, visualization, and analysis. Detailed writeups from each session are included, as well as links to scripts written in the workshops.
+We hope this helps researchers who have to miss a session, or interested individuals who aren&amp;rsquo;t able to join us in person. As always, you are welcome to attend our sessions, which take place at Searle 240B at noon on Tuesdays.</description>
+    </item>
+    
+    <item>
+      <title>Launching Spatial Analysis Site</title>
+      <link>https://spatialanalysis.github.io/post/launching-spatial-analysis-site/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/post/launching-spatial-analysis-site/</guid>
+      <description>Who we are Led by Luc Anselin, we&amp;rsquo;re a group of students, staff, and faculty at the University of Chicago who use spatial methods in our research and teaching. As spatial thinkers, we’re excited to launch this site to teach introductory spatial analysis.
+Over the next few months, we plan to build out teaching materials based off of Luc Anselin’s spatial data courses at the University of Chicago. Our goal is to demonstrate how you can get started with exploratory spatial data analysis, including spatial dependence and spatial modeling.</description>
+    </item>
+    
+    <item>
+      <title>401 Unauthorized</title>
+      <link>https://spatialanalysis.github.io/401/</link>
+      <pubDate>Thu, 23 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://spatialanalysis.github.io/401/</guid>
+      <description>A user name and password is required.
+You&amp;rsquo;ve attempted to visit a section of the website reserved for authorized users.
+Hugo-smorg provides the ability to generated a custom error page. 404 pages are generated by the default Hugo mechanism; use layout: errorpage in front-matter to create 401 and other pages as required.</description>
+    </item>
+    
+  </channel>
+</rss>
