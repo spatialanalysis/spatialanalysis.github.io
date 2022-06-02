@@ -16,7 +16,7 @@ The following are resources that we have found useful in teaching spatial analys
 
 - [**Geocomputation in R**](https://geocompr.robinlovelace.net/)*: Recent online textbook about manipulating, mapping, and modeling geographic data
 
-- [**Introduction to visualizing spatial data in R**](http://r4ds.had.co.nz)*, Robin Lovelace, James Cheshire, Rachel Oldroyd and others (2015) : A good introductory overview of GIS operations in R
+- [**Introduction to visualizing spatial data in R**]([http://r4ds.had.co.nz](https://cran.r-project.org/doc/contrib/intro-spatial-rl.pdf))*, Robin Lovelace, James Cheshire, Rachel Oldroyd and others (2015) : A good introductory overview of GIS operations in R
 
 - [**An Introduction to Spatial Data Analysis and Visualization in R**](http://www.spatialanalysisonline.com/An%20Introduction%20to%20Spatial%20Data%20Analysis%20in%20R.pdf)*, Guy Lansley and James Cheshire (2016): A more extensive introduction to mapping, spatial data manipulation and visualization in R
 
