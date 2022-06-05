@@ -36,7 +36,7 @@
   "dependencies": {},
   "devDependencies": {
     "bulma": "^0.6.2",
-    "node-sass": "^4.7.2",
+    "node-sass": ">=7.0.0",
     "nodemon": "^1.17.1",
     "npm-run-all": "^4.1.2"
   }
